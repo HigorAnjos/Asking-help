@@ -1,0 +1,112 @@
+/*RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+header
+{
+    background-color: aqua;
+    height: 200px;
+}
+nav
+{
+    float:right;
+    margin-top: 70px;
+    margin-right: 50px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+li
+{
+    display: inline;
+    padding: 30px;
+}
+
+.logo
+{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 3.5rem;
+}
+
+/*MAIN*/
+.float
+{
+    display: block;
+    position: absolute;
+    float: left;
+}
+.conteudo
+{
+    display: flex;
+    width: 85%;
+}
+.paragrafo
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.paragrafo h1
+{
+    margin-bottom: 30px;
+    font-size: 2.0rem;
+
+}
+.paragrafo p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.0rem;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 125px;
+    
+}
+
+aside
+{
+    background-color: brown;
+    display: block;
+    position: absolute;
+    margin-left: 85%;
+    margin-bottom: 10px;
+
+}
+.ul
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.ul li
+{
+    padding: 5px;
+}
+/* FOOTER */
+
+footer
+{
+    display: block;
+    background-color: bisque;
+    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+}
